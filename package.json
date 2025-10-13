@@ -1,0 +1,17 @@
+{
+  "name": "qa-login-tests",
+  "version": "1.0.0",
+  "description": "Automated tests for login page",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "keywords": ["playwright", "testing", "automation"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
